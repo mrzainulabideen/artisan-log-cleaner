@@ -1,6 +1,6 @@
 <?php
 
-namespace Hedii\ArtisanLogCleaner\Tests;
+namespace Zain\ArtisanLogCleaner\Tests;
 
 class ClearLogsTest extends TestCase
 {

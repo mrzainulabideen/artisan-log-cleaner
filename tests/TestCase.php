@@ -1,11 +1,11 @@
 <?php
 
-namespace Hedii\ArtisanLogCleaner\Tests;
+namespace Zain\ArtisanLogCleaner\Tests;
 
 use Hedii\ArtisanLogCleaner\ArtisanLogCleanerServiceProvider;
-use Orchestra\Testbench\TestCase as Orchestra;
+use Orchestra\Testbench\TestCase as OrchestraTestCase;
 
-class TestCase extends Orchestra
+class TestCase extends OrchestraTestCase
 {
     /**
      * The log directory path.

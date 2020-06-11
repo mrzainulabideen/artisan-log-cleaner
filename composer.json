@@ -1,10 +1,10 @@
 {
-    "name": "hedii/artisan-log-cleaner",
-    "description": "An artisan command to clear laravel log files",
+    "name": "mrzainulabideen/artisan-log-cleaner",
+    "description": "An artisan command to clear laravel log files. Laravel 7 supported",
     "type": "library",
     "license": "MIT",
     "keywords": [
-        "hedii",
+        "mrzainulabideen",
         "artisan-log-cleaner",
         "laravel",
         "artisan",
@@ -13,35 +13,34 @@
     ],
     "authors": [
         {
-            "name": "hedii",
-            "email": "contact@hedichaibi.com",
-            "homepage": "https://hedichaibi.com"
+            "name": "Zain Ul Abideeen",
+            "email": "mrzainulabideen2037@gmail.com"
         }
     ],
     "support": {
-        "issues": "https://github.com/hedii/artisan-log-cleaner/issues",
-        "source": "https://github.com/hedii/artisan-log-cleaner",
-        "email": "hedi.chaibs@gmail.com"
+        "issues": "https://github.com/mrzainulabideen/artisan-log-cleaner/issues",
+        "source": "https://github.com/mrzainulabideen/artisan-log-cleaner",
+        "email": "mrzainulabideen2037@gmail.com"
     },
     "require": {
-        "php": "^7.2",
-        "illuminate/console": "^6.0",
-        "illuminate/filesystem": "^6.0",
-        "illuminate/support": "^6.0"
+        "php": "^7.4",
+        "illuminate/console": "^7.15",
+        "illuminate/filesystem": "^7.15",
+        "illuminate/support": "^7.15"
     },
     "require-dev": {
-        "mockery/mockery": "^1.0",
-        "orchestra/testbench": "^4.0",
-        "phpunit/phpunit": "^8.0"
+        "mockery/mockery": "^1.4",
+        "orchestra/testbench": "^5.3",
+        "phpunit/phpunit": "^9.2"
     },
     "autoload": {
         "psr-4": {
-            "Hedii\\ArtisanLogCleaner\\": "src/"
+            "Zain\\ArtisanLogCleaner\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Hedii\\ArtisanLogCleaner\\Tests\\": "tests/"
+            "Zain\\ArtisanLogCleaner\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -53,7 +52,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Hedii\\ArtisanLogCleaner\\ArtisanLogCleanerServiceProvider"
+                "Zain\\ArtisanLogCleaner\\ArtisanLogCleanerServiceProvider"
             ]
         }
     }
